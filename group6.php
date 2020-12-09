@@ -48,7 +48,7 @@ $som5 =  $Num1V5."|*|".$Num2V5;
         <p><?php
             echo "Wat is $Num1V1 + $Num2V1?";
         ?></p>
-        <p><input type="number" name="awns1"> </p>
+        <p><input type="number" name="awns1"></p>
         <!--Vraag 2-->
         <p><?php
             echo "Wat is $Num1V2 + $Num2V2?";
