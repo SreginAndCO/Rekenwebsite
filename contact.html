@@ -1,51 +1,85 @@
 <html>
-
+<head lang="nl">
 <head>
-
-    <title>De Splinter - Contact Page</title>
-    <link rel="stylesheet" type="text/css" Href="css/formstyle.css">
-
-    <div class = "topnav">
-        <a href="index.html">Homepage</a>
-        <a href="info.html">Waar staan we voor</a>
-        <a href="rekenen.html">RekenQuiz</a>
-        <a class = "active"href="contact.html">Contact </a>
-
-
-    </div>
+    <title>De Splinter - Contact</title>
+    <meta charset=utf-8>
+    <meta name=description content="beschrijving">
+    <meta name=keywords content="trefwoord,trefwoord">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <link href="css/contact.css" rel="stylesheet">
 </head>
-<div id = "titlecontact">
-    <h1> Contact pagina </h1>
-</div>
-<hr> </hr>
+<header>
+    <div>
+        <img src="images/logo.jpg" alt="Logo Of Ceators" width="100" height="100"><br />
+        <div class = <h1> basisschool De Splinter </h1>
 
+            <div class = "topnav">
+                <a href="index.html">Home </a>
+                <a href="info.html">Waar staan we voor</a>
+                <a href="rekenen.html">RekenQuiz</a>
+                <a class = "active" href="contact.html">Contact</a>
+
+            </div>
+        </div>
+</header>
 <body>
 
+<link href="contact-form.css" rel="stylesheet">
 
-<form>
+<div class="row">
+    <div class="column">
+    </div>
+    <div class="column">
+        <header>
+            <div class="fcf-body">
 
-        <legend> Contact formulier</legend>
+                <div id="fcf-form">
+                    <h3 class="fcf-h3">Contact us!</h3>
+                    <hr />
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contactsend.php">
 
-<div class = "contact-section">
-         Neem contact op!
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Jouw Naam</label>
+                            <div class="fcf-input-group">
+                                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                            </div>
+                        </div>
 
-    <div class = "border"> </div>
-    <form class = "contact-form" action="contact.html" method = "post">
-        <input type = "text" class = "contact-form-text" placeholder = "Naam">
-        <input type = "email" class = "contact-form-text" placeholder = "E-mail">
-        <input type = "text" class = "contact-form-text" placeholder = "Telefoon-nummer">
-        <textarea class="contact-form-text" placeholder= "your message"></textarea>
-    </form>
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Jouw email address</label>
+                            <div class="fcf-input-group">
+                                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Jouw message</label>
+                            <div class="fcf-input-group">
+                                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Verstuur</button>
+                        </div>
+                        <hr />
+                        <div class="fcf-credit" id="fcf-credit">
+                            <img src="images/logo.png" alt="Logo Of Ceators" width="100" height="100"><br />
+                            This Website made by : SreginAndCO
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </header>
+        <hr />
+    </div>
+    <div class="column">
+    </div>
 </div>
-
-
 
 
 </body>
-
-
-
-
-
 </html>
-

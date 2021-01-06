@@ -3,12 +3,10 @@
 
 h1 {
 text-align: center;
-  background-color:#9FAC8A ;
+  background-color: #ea8400 ;
   font-size:100px ;
 
 }
-
-
 
 b{
 
@@ -17,13 +15,12 @@ b{
 
 p {
 
-background-color: rgb(161, 121,0) ;
+background-color: #ea8400;
   font-family: "Lucida Console", Courier, monospace;
   font-size: 20px;
-  width: 500px;
+  width: 700px;
 text-align:center;
 color:black;
-
 }
 
 header {
@@ -71,7 +68,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: black;
+  background-color: #FF0099;
   color: white;
 }
 

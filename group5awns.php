@@ -3,11 +3,13 @@
 <head>
     <title>De Splinter - Uitslagen Groep 5</title>
     <meta name=description content="�">
+    <meta charset=utf-8>
     <link rel="stylesheet" href="css/formstyle.css">
 
 </head>
 <body>
 <header>
+    <img src="images/logo.jpg" alt="Logo Of Ceators" width="100" height="100"><br />
     <div class = <h1> basisschool De Splinter </h1>
         <div class = "topnav">
             <a href="index.html">Home</a>
@@ -15,6 +17,7 @@
             <a class = "active"href="rekenen.html">RekenQuiz</a>
             <a href="contact.html">Contact</a>
         </div>
+    </div>
 </header>
 
 <?php

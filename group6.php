@@ -3,10 +3,12 @@
 <head>
 		<title>De Splinter - Rekenen Groep 6</title>
 		<meta name=description content="�">
+    <meta charset=utf-8>
     <link rel="stylesheet" href="css/formstyle.css">
 
 </head>
 <header>
+    <img src="images/logo.jpg" alt="Logo Of Ceators" width="100" height="100"><br />
     <div class = <h1> basisschool De Splinter </h1>
         <div class = "topnav">
             <a href="index.html">Home</a>
@@ -14,6 +16,7 @@
             <a class = "active"href="rekenen.html">RekenQuiz</a>
             <a href="contact.html">Contact</a>
         </div>
+    </div>
 </header>
 
 <?php
@@ -43,6 +46,7 @@ $Num2V5 = rand ($min , $max);
 $som5 =  $Num1V5."|*|".$Num2V5;
 ?>
 <body>
+<div style="width:800px; margin:0 auto;">
     <form action="group4awns.php" method="post">
         <!--Vraag 1-->
         <p><?php
@@ -74,7 +78,8 @@ $som5 =  $Num1V5."|*|".$Num2V5;
         <input type="hidden" name="getal3" value="<?php echo $som3;?>">
         <input type="hidden" name="getal4" value="<?php echo $som4;?>">
         <input type="hidden" name="getal5" value="<?php echo $som5;?>">
-        <input type="submit">
+        <p><input type="submit"></p>
     </form>
+</div>
 </body>
 </html>
